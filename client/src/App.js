@@ -1,7 +1,12 @@
 import "./App.css";
+import { TopBar } from "./component/TopBar";
 
 function App() {
-  return <div>My CRUD application</div>;
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
 }
 
 export default App;
