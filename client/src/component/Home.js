@@ -1,5 +1,8 @@
 import React from "react";
 import { Button, Col, Container, Row, Table } from "react-bootstrap";
+import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import DeleteIcon from "@mui/icons-material/Delete";
+import EditIcon from "@mui/icons-material/Edit";
 
 const Home = () => {
   return (
@@ -31,15 +34,15 @@ const Home = () => {
                   <td>sam1@gmail.com</td>
                   <td>Frontend-developer</td>
                   <td>04555345611</td>
-                  <td className="d-flex justify-content-between ">
-                    <Button variant="success">
-                      <i class="fa-solid fa-eye"></i>
-                    </Button>
+                  <td className="d-flex justify-content-between">
+                    <button className="btn btn-success">
+                      <RemoveRedEyeIcon />
+                    </button>
                     <Button variant="warning">
-                      <i class="fa-solid fa-pen-to-square"></i>
+                      <DeleteIcon />
                     </Button>
                     <Button variant="danger">
-                      <i class="fa-solid fa-trash"></i>
+                      <EditIcon />
                     </Button>
                   </td>
                 </tr>
@@ -51,14 +54,11 @@ const Home = () => {
                   <td>04555345611</td>
                   <td className="d-flex justify-content-between ">
                     <Button variant="success">
+                      {" "}
                       <i class="fa-solid fa-eye"></i>
                     </Button>
-                    <Button variant="warning">
-                      <i class="fa-solid fa-pen-to-square"></i>
-                    </Button>
-                    <Button variant="danger">
-                      <i class="fa-solid fa-trash"></i>
-                    </Button>
+                    <Button variant="warning"></Button>
+                    <Button variant="danger"></Button>
                   </td>
                 </tr>
                 <tr>

@@ -1,3 +1,22 @@
 * {
   background-color: rgb(236, 249, 249);
 }
+
+.detail-left,
+.detail-right h3 {
+  font-size: 22px;
+}
+
+.detail-left,
+.detail-right,
+span {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.detail-left,
+.detail-right,
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
