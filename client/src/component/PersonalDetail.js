@@ -15,17 +15,17 @@ export const PersonalDetail = () => {
       <h1 className="fw-normal">Welcome Nisha</h1>
       <Card sx={{ minWidth: 275 }}>
         <CardContent>
-          <Row s>
+          <Row>
             <Col className="detail-left ">
               {" "}
               <img src={profile} width="150px" alt="profile" className="mb-3" />
-              <h3>
+              <p>
                 Name: {""}
                 <span>Sam Smith</span>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 Age: <span>25 yrs</span>
-              </h3>
+              </p>
               <p>
                 <WorkIcon /> Work:<span>Front-End Developer</span>
               </p>
